@@ -1,17 +1,11 @@
 {
-    "service_name": "some_service",
-    "role_name": "server",
+    "service_name": "formulaname",
+    "role_name": "service",
     "initial_version": "2018.1",
     "copyright_year": "2018",
-    "copyright_holder": "Your Name et al.",
-    "author_name": "John Doe",
-    "author_contact": "jdoe@domain.com",
-    "homepage": "https://github.com/salt-formulas",
-
-    "debian_version": "trusty",
-
-    "kitchen_driver": "docker",
-    "kitchen_verifier": "inspec",
-    "kitchen_formula": "{{ cookiecutter.service_name }}",
-    "kitchen_suites": ""
+    "copyright_holder": "Helioslite",
+    "author_name": "Bruno Binet",
+    "author_contact": "bruno.binet@helioslite.com",
+    "homepage": "https://bitbucket.org/helioslite2/salt-formula-{{ cookiecutter.service_name }}",
+    "debian_version": "jessie"
 }
